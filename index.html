@@ -3,9 +3,10 @@
 <head>
 
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Hotel Booking</title>
+    <title>Hotel Site</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -21,31 +22,26 @@
     <nav>
 
         <a href="#">Головна</a>
+
         <a href="#">Запис онлайн</a>
 
     </nav>
 
-    <div class="header-buttons">
-
-        <button class="book-btn">
-            ЗАБРОНЮВАТИ
-        </button>
-
-    </div>
+    <button class="header-btn">
+        ЗАБРОНЮВАТИ
+    </button>
 
 </header>
 
 <section class="main">
 
-    <h1>Наші Послуги</h1>
+    <h1>
+        Наші Послуги
+    </h1>
 
     <div class="content">
 
-        <!-- LEFT -->
-
         <div class="cards">
-
-            <!-- CARD -->
 
             <div class="card">
 
@@ -53,24 +49,27 @@
 
                 <div class="card-info">
 
-                    <h2>Номер для одного</h2>
+                    <h2>
+                        Номер для одного
+                    </h2>
 
-                    <a href="#">Детальніше</a>
+                    <a href="#">
+                        Детальніше
+                    </a>
 
                     <div class="line"></div>
 
                     <p>24 год</p>
+
                     <p>250 грн</p>
 
-                    <button>
+                    <button class="select-room">
                         Обрати послугу
                     </button>
 
                 </div>
 
             </div>
-
-            <!-- CARD -->
 
             <div class="card">
 
@@ -78,41 +77,21 @@
 
                 <div class="card-info">
 
-                    <h2>Номер для двох "Люкс"</h2>
+                    <h2>
+                        Номер для двох Люкс
+                    </h2>
 
-                    <a href="#">Детальніше</a>
+                    <a href="#">
+                        Детальніше
+                    </a>
 
                     <div class="line"></div>
 
                     <p>24 год</p>
+
                     <p>750 грн</p>
 
-                    <button>
-                        Обрати послугу
-                    </button>
-
-                </div>
-
-            </div>
-
-            <!-- CARD -->
-
-            <div class="card">
-
-                <img src="images/room3.jpg">
-
-                <div class="card-info">
-
-                    <h2>Номер для одного комфорт</h2>
-
-                    <a href="#">Детальніше</a>
-
-                    <div class="line"></div>
-
-                    <p>24 год</p>
-                    <p>300 грн</p>
-
-                    <button>
+                    <button class="select-room">
                         Обрати послугу
                     </button>
 
@@ -122,28 +101,33 @@
 
         </div>
 
-        <!-- RIGHT -->
+        <div class="booking-box">
 
-        <div class="form-box">
-
-            <h2>Швидкий запис</h2>
+            <h2>
+                Швидкий запис
+            </h2>
 
             <form id="bookingForm">
 
                 <label>Ім'я</label>
-                <input type="text" id="name">
+
+                <input type="text" id="first_name">
 
                 <label>Прізвище</label>
-                <input type="text" id="surname">
 
-                <label>Ел. пошта</label>
+                <input type="text" id="last_name">
+
+                <label>Email</label>
+
                 <input type="email" id="email">
 
                 <label>Телефон</label>
+
                 <input type="text" id="phone">
 
                 <label>Дата</label>
-                <input type="date" id="date">
+
+                <input type="date" id="booking_date">
 
                 <button type="submit">
                     Надіслати
