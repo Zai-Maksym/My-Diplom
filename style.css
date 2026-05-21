@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#eef0f4;
+}
+
+/* HEADER */
+
+header{
+
+    height:90px;
+    background:white;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 60px;
+}
+
+.logo{
+    font-size:40px;
+    font-weight:bold;
+    color:#2342c0;
+}
+
+nav{
+    display:flex;
+    gap:40px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#001b57;
+    font-size:22px;
+}
+
+.book-btn{
+
+    border:none;
+
+    background:#2342c0;
+
+    color:white;
+
+    padding:18px 40px;
+
+    border-radius:40px;
+
+    font-size:20px;
+
+    cursor:pointer;
+}
+
+/* MAIN */
+
+.main{
+    width:90%;
+    margin:auto;
+    margin-top:50px;
+}
+
+.main h1{
+    text-align:center;
+    font-size:60px;
+    color:#001b57;
+}
+
+/* CONTENT */
+
+.content{
+
+    margin-top:60px;
+
+    display:flex;
+    gap:40px;
+}
+
+/* CARDS */
+
+.cards{
+
+    width:65%;
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+}
+
+.card{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+}
+
+.card img{
+
+    width:100%;
+    height:300px;
+
+    object-fit:cover;
+}
+
+.card-info{
+    padding:25px;
+}
+
+.card-info h2{
+
+    font-size:38px;
+
+    color:#001b57;
+
+    margin-bottom:20px;
+}
+
+.card-info a{
+
+    color:gray;
+
+    display:inline-block;
+
+    margin-bottom:25px;
+}
+
+.line{
+
+    width:100%;
+    height:1px;
+
+    background:#ccc;
+
+    margin-bottom:25px;
+}
+
+.card-info p{
+
+    font-size:28px;
+
+    color:#001b57;
+
+    margin-bottom:10px;
+}
+
+.card-info button{
+
+    margin-top:20px;
+
+    border:none;
+
+    background:#2342c0;
+
+    color:white;
+
+    padding:15px 25px;
+
+    border-radius:12px;
+
+    font-size:20px;
+
+    cursor:pointer;
+}
+
+/* FORM */
+
+.form-box{
+
+    width:35%;
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+}
+
+.form-box h2{
+
+    font-size:50px;
+
+    color:#001b57;
+
+    margin-bottom:30px;
+}
+
+.form-box form{
+
+    display:flex;
+    flex-direction:column;
+}
+
+.form-box label{
+
+    margin-bottom:10px;
+    margin-top:20px;
+
+    font-size:20px;
+}
+
+.form-box input{
+
+    height:60px;
+
+    border:1px solid #ddd;
+
+    border-radius:12px;
+
+    padding-left:15px;
+
+    font-size:18px;
+}
+
+.form-box button{
+
+    margin-top:30px;
+
+    height:65px;
+
+    border:none;
+
+    background:#2342c0;
+
+    color:white;
+
+    border-radius:14px;
+
+    font-size:22px;
+
+    cursor:pointer;
+}
